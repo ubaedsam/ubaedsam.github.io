@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" />
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <!-- Membuat Animasi AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Animation -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@800&family=DM+Serif+Text&family=Dongle:wght@700&family=Lobster&family=Montserrat:wght@100;400;500;700&family=Oswald:wght@200;400&family=Pacifico&family=Righteous&family=Shizuru&family=Trade+Winds&display=swap"
+        rel="stylesheet" />
+
+    <link rel="icon" href="img/icon ubaed.png" />
+    <title>UBAED S.A.M</title>
+    <style>
+        .path-0 {
+            animation: pathAnim-0 4s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+        }
+        
+        @keyframes pathAnim-0 {
+            0% {
+                d: path( "M 0,400 C 0,400 0,200 0,200 C 83.04774991411887,221.64342150463756 166.09549982823773,243.28684300927515 233,222 C 299.90450017176227,200.71315699072485 350.665750601168,136.49604946753692 416,154 C 481.334249398832,171.50395053246308 561.2414977670904,270.72895912057714 619,261 C 676.7585022329096,251.27104087942286 712.3682583304706,132.58811405015456 786,127 C 859.6317416695294,121.41188594984543 971.2854689110275,228.9185846788045 1043,266 C 1114.7145310889725,303.0814153211955 1146.4898660254207,269.7375472346273 1206,247 C 1265.5101339745793,224.26245276537273 1352.7550669872896,212.13122638268635 1440,200 C 1440,200 1440,400 1440,400 Z");
+            }
+            25% {
+                d: path( "M 0,400 C 0,400 0,200 0,200 C 90.0295431123325,219.66059773273787 180.059086224665,239.32119546547577 238,221 C 295.940913775335,202.67880453452423 321.7931982136723,146.37581587083474 377,137 C 432.2068017863277,127.62418412916524 516.7681209206457,165.17554105118518 593,179 C 669.2318790793543,192.82445894881482 737.1343181037445,182.9220199244246 813,166 C 888.8656818962555,149.0779800755754 972.6946066643766,125.1363792511165 1052,132 C 1131.3053933356234,138.8636207488835 1206.0872552387495,176.5324630711096 1270,193 C 1333.9127447612505,209.4675369288904 1386.9563723806252,204.7337684644452 1440,200 C 1440,200 1440,400 1440,400 Z");
+            }
+            50% {
+                d: path( "M 0,400 C 0,400 0,200 0,200 C 60.10305736860184,200.9488148402611 120.20611473720368,201.89762968052216 193,203 C 265.7938852627963,204.10237031947784 351.27859841978704,205.35829611817243 428,211 C 504.72140158021296,216.64170388182757 572.6794915836482,226.66918584678808 630,242 C 687.3205084163518,257.3308141532119 734.00343524562,277.9649604946753 811,268 C 887.99656475438,258.0350395053247 995.3067674338713,217.47097217451045 1061,205 C 1126.6932325661287,192.52902782548955 1150.7694950188938,208.15115080728273 1207,212 C 1263.2305049811062,215.84884919271727 1351.615252490553,207.92442459635862 1440,200 C 1440,200 1440,400 1440,400 Z");
+            }
+            75% {
+                d: path( "M 0,400 C 0,400 0,200 0,200 C 70.55788388869806,176.18481621435933 141.11576777739612,152.36963242871866 206,136 C 270.8842322226039,119.63036757128134 330.0948127791137,110.70628649948472 407,134 C 483.9051872208863,157.29371350051528 578.504981106149,212.8052215733425 651,225 C 723.495018893851,237.1947784266575 773.88526279629,206.0728272071453 835,204 C 896.11473720371,201.9271727928547 967.9539677086909,228.9034695980763 1041,240 C 1114.046032291309,251.0965304019237 1188.2988663689455,246.3132944005496 1255,237 C 1321.7011336310545,227.6867055994504 1380.8505668155271,213.8433527997252 1440,200 C 1440,200 1440,400 1440,400 Z");
+            }
+            100% {
+                d: path( "M 0,400 C 0,400 0,200 0,200 C 83.04774991411887,221.64342150463756 166.09549982823773,243.28684300927515 233,222 C 299.90450017176227,200.71315699072485 350.665750601168,136.49604946753692 416,154 C 481.334249398832,171.50395053246308 561.2414977670904,270.72895912057714 619,261 C 676.7585022329096,251.27104087942286 712.3682583304706,132.58811405015456 786,127 C 859.6317416695294,121.41188594984543 971.2854689110275,228.9185846788045 1043,266 C 1114.7145310889725,303.0814153211955 1146.4898660254207,269.7375472346273 1206,247 C 1265.5101339745793,224.26245276537273 1352.7550669872896,212.13122638268635 1440,200 C 1440,200 1440,400 1440,400 Z");
+            }
+        }
+    </style>
+</head>
+
+<body id="home">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="img/icon ubaed.png" />
+                <span>UBAED S.A.M</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#home">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">SKILL</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">PROJECTS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">CONTACT ME</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Akhir Navbar -->
+
+    <!-- Jumbotron section pertama -->
+    <section class="jumbotron text-center">
+        <img src="img/ubaed3.jpeg" alt="Ubaed S.A.M" width="200" class="img-thumbnail" />
+        <h1 class="display-4 nametag-h1 animate__animated animate__backInLeft animate__delay-1.5s">Ubaed Shibghahtallah Ashri Muharam</h1>
+        <!-- <p class="lead nametag-p"></p> -->
+        <div class="text-center">
+            <p>
+                <a href="assets/CV Ubaed shibghahtallah ashri muharam.pdf" target="#_blank" class="btn btn-danger">Download CV <i class="bi bi-download"></i></a>
+                <a href="assets/Sertifikat Ubaed.pdf" target="#_blank" class="btn btn-primary">Download Sertifikat <i class="bi bi-download"></i></a>
+            </p>
+        </div>
+        <svg width="100%" height="100%" id="svg" viewBox="0 0 1440 400" xmlns="http://www.w3.org/2000/svg" class="transition duration-300 ease-in-out delay-150">
+        <defs>
+          <linearGradient id="gradient" x1="50%" y1="100%" x2="50%" y2="0%">
+            <stop offset="5%" stop-color="#e72323ff"></stop>
+            <stop offset="95%" stop-color="#1486f8ff"></stop>
+          </linearGradient>
+        </defs>
+        <path
+          d="M 0,400 C 0,400 0,200 0,200 C 83.04774991411887,221.64342150463756 166.09549982823773,243.28684300927515 233,222 C 299.90450017176227,200.71315699072485 350.665750601168,136.49604946753692 416,154 C 481.334249398832,171.50395053246308 561.2414977670904,270.72895912057714 619,261 C 676.7585022329096,251.27104087942286 712.3682583304706,132.58811405015456 786,127 C 859.6317416695294,121.41188594984543 971.2854689110275,228.9185846788045 1043,266 C 1114.7145310889725,303.0814153211955 1146.4898660254207,269.7375472346273 1206,247 C 1265.5101339745793,224.26245276537273 1352.7550669872896,212.13122638268635 1440,200 C 1440,200 1440,400 1440,400 Z"
+          stroke="none"
+          stroke-width="0"
+          fill="url(#gradient)"
+          class="transition-all duration-300 ease-in-out delay-150 path-0"
+        ></path>
+      </svg>
+    </section>
+    <!-- Akhir Jumbotron section pertama -->
+
+    <!-- About -->
+    <section id="about">
+        <div class="container">
+            <div class="row text-center mb-3">
+                <div class="col">
+                    <h2 style="color: white">About Me</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center fs-5 text-center d-flex align-items-center" style="color: white">
+                <div class="col-md-4 mb-3 flex-shrink-0" data-aos="fade-right">
+                    <img src="img/ubaed.png" class="img-about" alt="..." />
+                </div>
+                <div class="col-md-4 mb-3 flex-grow-1 ms-3" data-aos="fade-left" data-aos-delay="200">
+                    <p class="lh-lg">
+                        Perkenalkan nama saya Ubaed Shibghahtallah Ashri Muharam, Fresh graduate lulusan teknik informatika yang menyukai teknologi, khususnya pemrograman dan pengembangan web. siap untuk mempelajari hal-hal baru untuk tumbuh dan berkontribusi untuk bekerja secara
+                        individu atau dalam tim.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#1486f8"
+          fill-opacity="1"
+          d="M0,160L60,176C120,192,240,224,360,197.3C480,171,600,85,720,85.3C840,85,960,171,1080,192C1200,213,1320,171,1380,149.3L1440,128L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- Akhir About -->
+
+    <!-- Skills/Kemampuan -->
+    <section id="skills">
+        <div class="container">
+            <div class="row text-center mb-3">
+                <div class="col">
+                    <h1 style="color: white">SKILL</h1>
+                </div>
+            </div>
+            <div class="row text-center mb-3 pb-3">
+                <div class="col">
+                    <div class="badge bg-danger text-wrap p-2" style="width: 15rem">BASIC LANGUAGE</div>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-evenly">
+                <div class="col-md-4 mb-3">
+                    <div class="card h-100" data-aos="flip-right" data-aos-duration="500" data-aos-delay="450">
+                        <img src="img/skill/html.png" class="card-img-top mt-3" />
+                        <div class="card-body">
+                            <h5 class="card-title text-center p-3 mb-2 card-html" style="color: white">HTML5</h5>
+                            <h5 class="text-center" style="color: orangered">Tingkat Pemahaman</h5>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped card-html" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card h-100" data-aos="flip-right" data-aos-duration="500" data-aos-delay="400">
+                        <img src="img/skill/css.png" class="card-img-top mt-3" />
+                        <div class="card-body">
+                            <h5 class="card-title text-center bg-primary p-3 mb-2" style="color: white">CSS</h5>
+                            <h5 class="text-center" style="color: rgb(0, 90, 224)">Tingkat Pemahaman</h5>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped bg-primary" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card h-100" data-aos="flip-right" data-aos-duration="500" data-aos-delay="350">
+                        <img src="img/skill/javascript.png" class="card-img-top mt-3" />
+                        <div class="card-body">
+                            <h5 class="card-title text-center bg-warning p-3 mb-2" style="color: white">JAVASCRIPT</h5>
+                            <h5 class="text-center" style="color: rgb(221, 221, 0)">Tingkat Pemahaman</h5>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">40%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-5 pt-3">
+                    <div class="card h-100" data-aos="flip-right" data-aos-duration="500" data-aos-delay="300">
+                        <img src="img/skill/php.png" class="card-img-top" />
+                        <div class="card-body">
+                            <h5 class="card-title text-center bg-primary p-3 mb-2" style="color: white">PHP</h5>
+                            <h5 class="text-center" style="color: rgb(0, 90, 224)">Tingkat Pemahaman</h5>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped bg-primary" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">65%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-5 pt-3">
+                    <div class="card h-100" data-aos="flip-right" data-aos-duration="500" data-aos-delay="250">
+                        <img src="img/skill/sass.png" class="card-img-top" />
+                        <div class="card-body">
+                            <h5 class="card-title text-center p-3 mb-2 card-sass" style="color: white">SASS</h5>
+                            <h5 class="text-center" style="color: rgb(187, 62, 104)">Tingkat Pemahaman</h5>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped card-sass" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center mb-3 pt-5 pb-3">
+                <div class="col">
+                    <div class="badge bg-danger text-wrap p-2" style="width: 15rem">FRAMEWORK</div>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-evenly">
+                <div class="col-md-4 mb-3">
+                    <div class="card h-100" data-aos="fade-down-right" data-aos-duration="400" data-aos-delay="350">
+                        <img src="img/skill/bootstrap.png" class="card-img-top mt-3" />
+                        <div class="card-body">
+                            <h5 class="card-title text-center p-3 mb-2 card-bootstrap" style="color: white">BOOTSTRAP</h5>
+                            <h5 class="text-center" style="color: rgb(118, 0, 172)">Tingkat Pemahaman</h5>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped card-bootstrap" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card h-100" data-aos="fade-down" data-aos-duration="400" data-aos-delay="300">
+                        <img src="img/skill/codeigniter.png" class="card-img-top mt-3" />
+                        <div class="card-body">
+                            <h5 class="card-title text-center p-3 mb-2 card-codeigniter" style="color: white">CODEIGNITER</h5>
+                            <h5 class="text-center" style="color: orangered">Tingkat Pemahaman</h5>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped card-codeigniter" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card h-100" data-aos="fade-down-left" data-aos-duration="400" data-aos-delay="300">
+                        <img src="img/skill/laravel.png" class="card-img-top mt-3" />
+                        <div class="card-body">
+                            <h5 class="card-title text-center p-3 mb-2 card-laravel" style="color: white">Laravel</h5>
+                            <h5 class="text-center" style="color: red">Tingkat Pemahaman</h5>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped card-laravel" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">65%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center mb-3 pt-5 pb-4">
+                <div class="col">
+                    <div class="badge bg-danger text-wrap p-2" style="width: 15rem">DATABASE</div>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-evenly">
+                <div class="col-md-4 mb-3">
+                    <div class="card h-100" data-aos="fade-down-up" data-aos-duration="400" data-aos-delay="250">
+                        <img src="img/skill/mysql.png" class="card-img-top mt-3" />
+                        <div class="card-body">
+                            <h5 class="card-title text-center p-3 mb-2 bg-primary bg-opacity-75" style="color: white">MYSQL</h5>
+                            <h5 class="text-center" style="color: rgb(74, 147, 255)">Tingkat Pemahaman</h5>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped bg-primary bg-opacity-75" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#e72323"
+          fill-opacity="1"
+          d="M0,128L40,122.7C80,117,160,107,240,133.3C320,160,400,224,480,250.7C560,277,640,267,720,266.7C800,267,880,277,960,245.3C1040,213,1120,139,1200,117.3C1280,96,1360,128,1400,144L1440,160L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+        <div class="container">
+            <div class="row text-center mb-3">
+                <div class="col">
+                    <h2 style="color: white">My Projects</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-4 mb-3">
+                    <div class="card" data-aos="flip-left" data-aos-duration="500">
+                        <img src="img/project6.png" class="card-img-top" />
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Personal Portfolio</h5>
+                            <!-- <p class="card-text">Ini merupakan real project saya yang kedua yaitu sebuah website sistem informasi dan administrasi desa</p> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="100">
+                        <img src="img/project5.png" class="card-img-top" />
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Landing Page</h5>
+                            <!-- <p class="card-text">Ini merupakan project saya yaitu sebuah website landing page call center</p> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="200">
+                        <img src="img/project4.png" class="card-img-top" />
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Website Perpustakaan</h5>
+                            <!-- <p class="card-text">Ini merupakan project saya setelah mengikuti IT bootcamp yaitu sebuah website sederhana sistem informasi perpustakaan</p> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="300">
+                        <img src="img/project3.png" class="card-img-top" />
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Website Mountain</h5>
+                            <!-- <p class="card-text">Ini merupakan project saya yaitu sebuah website sederhana sistem informasi daftar gunung</p> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="400">
+                        <img src="img/project7.png" class="card-img-top" />
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Website Management Eksport Dan Import Perusahaan</h5>
+                            <!-- <p class="card-text">Ini merupakan project saya yaitu sebuah website sistem informasi manajemen eksport dan import barang</p> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="400">
+                        <img src="img/project1.png" class="card-img-top" />
+                        <div class="card-body">
+                            <h5 class="card-title text-center">PPDB SD AL-IZZAH</h5>
+                            <!-- <p class="card-text">Ini merupakan real project saya yang pertama sekaligus project tugas akhir kuliah saya yaitu sebuah website sistem keamanan data informasi penerimaan peserta didik baru di sekolah</p> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="400">
+                        <img src="img/project2.png" class="card-img-top" />
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Siakad Kecamatan Pangkalan Jati</h5>
+                            <!-- <p class="card-text">Ini merupakan real project saya yang kedua yaitu sebuah website sistem informasi dan administrasi desa</p> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="400">
+                        <img src="img/project8.png" class="card-img-top" />
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Website Toko Online (E-Commerce)</h5>
+                            <!-- <p class="card-text">Ini merupakan project hasil pembelajaran saya tentang toko online (E-Commerce)</p> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="400">
+                        <img src="img/project9.png" class="card-img-top" />
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Website sistem informasi beasiswa</h5>
+                            <!-- <p class="card-text">Ini merupakan real project saya yang ketiga yaitu sebuah website sistem informasi beasiswa</p> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="400">
+                        <img src="img/project10.png" class="card-img-top" />
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Website sistem informasi film</h5>
+                            <!-- <p class="card-text">Ini merupakan real project saya yang keempat yaitu sebuah website sistem informasi film</p> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Akhir projects -->
+
+    <!-- Contact -->
+
+    <section id="contact">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col">
+                    <h2 style="color: white">Contact Me</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center mb-4">
+                <div class="col-md-8">
+                    <div class="alert alert-success alert-dismissible fade show d-none my-alert" role="alert">
+                        <strong>Terima kasih!</strong> Pesan anda sudah kami terima.
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    </div>
+                    <form name="ubaed-sam-contact-form">
+                        <div class="mb-3">
+                            <label for="name" class="form-label" style="color: white">Nama Lengkap</label>
+                            <input type="text" class="form-control" id="name" name="nama" aria-describedby="name" required />
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label" style="color: white">Email</label>
+                            <input type="email" class="form-control" id="email" name="email" aria-describedby="email" required />
+                        </div>
+                        <div class="mb-3">
+                            <label for="no_hp" class="form-label" style="color: white">No. Handphone</label>
+                            <input type="number" class="form-control" id="no_hp" name="no_hp" aria-describedby="no_hp" required />
+                        </div>
+                        <div class="mb-3">
+                            <label for="pesan" class="form-label" style="color: white">Pesan</label>
+                            <textarea class="form-control" id="pesan" name="pesan" rows="3" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-kirim proses-contact bg-primary">
+                <div class="svg-wrapper-1">
+                  <div class="svg-wrapper">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                      <path fill="none" d="M0 0h24v24H0z"></path>
+                      <path fill="currentColor" d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"></path>
+                    </svg>
+                  </div>
+                </div>
+                <span class="text">Kirim</span>
+              </button>
+                        <button class="btn-loading d-none proses-contact" type="button" disabled>
+                <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                Loading...
+              </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <svg width="100%" height="100%" id="svg" viewBox="0 0 1440 400" xmlns="http://www.w3.org/2000/svg" class="transition duration-300 ease-in-out delay-150">
+        <style>
+          .path-0 {
+            animation: pathAnim-0 4s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+          }
+          @keyframes pathAnim-0 {
+            0% {
+              d: path(
+                "M 0,400 C 0,400 0,200 0,200 C 53.07660597732739,164.16351769151493 106.15321195465478,128.32703538302988 173,125 C 239.84678804534522,121.67296461697012 320.46375815870834,150.8553761593954 386,181 C 451.53624184129166,211.1446238406046 501.9917554105119,242.2514599793885 582,237 C 662.0082445894881,231.7485400206115 771.5692201992441,190.13878392305048 851,189 C 930.4307798007559,187.86121607694952 979.7313637925113,227.19340432840949 1030,221 C 1080.2686362074887,214.80659567159051 1131.505324630711,163.08759876331158 1200,152 C 1268.494675369289,140.91240123668842 1354.2473376846447,170.4562006183442 1440,200 C 1440,200 1440,400 1440,400 Z"
+              );
+            }
+            25% {
+              d: path(
+                "M 0,400 C 0,400 0,200 0,200 C 45.48196496049468,151.65166609412574 90.96392992098936,103.30333218825146 170,128 C 249.03607007901064,152.69666781174854 361.62624527653725,250.4383373411199 440,255 C 518.3737547234628,259.5616626588801 562.5310889728615,170.94331844726895 629,133 C 695.4689110271385,95.05668155273104 784.2493988320165,107.78838886980421 852,131 C 919.7506011679835,154.2116111301958 966.4713156990724,187.90312607351427 1028,191 C 1089.5286843009276,194.09687392648573 1165.8653383716937,166.5991068361388 1237,163 C 1308.1346616283063,159.4008931638612 1374.0673308141531,179.7004465819306 1440,200 C 1440,200 1440,400 1440,400 Z"
+              );
+            }
+            50% {
+              d: path(
+                "M 0,400 C 0,400 0,200 0,200 C 64.20542768807971,232.77636551013399 128.41085537615942,265.55273102026797 203,254 C 277.5891446238406,242.44726897973206 362.56200618344207,186.5654414290622 432,148 C 501.43799381655793,109.43455857093781 555.3411198900722,88.18550326348335 629,125 C 702.6588801099278,161.81449673651665 796.0735142562694,256.6925455170045 855,261 C 913.9264857437306,265.3074544829955 938.3648230848507,179.04431466849877 1007,151 C 1075.6351769151493,122.95568533150121 1188.4671934043283,153.13019580900036 1268,171 C 1347.5328065956717,188.86980419099964 1393.766403297836,194.4349020954998 1440,200 C 1440,200 1440,400 1440,400 Z"
+              );
+            }
+            75% {
+              d: path(
+                "M 0,400 C 0,400 0,200 0,200 C 49.30539333562349,150.91583648230846 98.61078667124698,101.83167296461696 172,126 C 245.38921332875302,150.16832703538304 342.86224665063554,247.5891446238406 417,245 C 491.13775334936446,242.4108553761594 541.940226726211,139.81174854002063 603,127 C 664.059773273789,114.18825145997938 735.3768464445208,191.16386121607695 800,208 C 864.6231535554792,224.83613878392305 922.5523874957057,181.5328065956716 1004,165 C 1085.4476125042943,148.4671934043284 1190.4136035726556,158.7049124012367 1267,169 C 1343.5863964273444,179.2950875987633 1391.7931982136722,189.64754379938165 1440,200 C 1440,200 1440,400 1440,400 Z"
+              );
+            }
+            100% {
+              d: path(
+                "M 0,400 C 0,400 0,200 0,200 C 53.07660597732739,164.16351769151493 106.15321195465478,128.32703538302988 173,125 C 239.84678804534522,121.67296461697012 320.46375815870834,150.8553761593954 386,181 C 451.53624184129166,211.1446238406046 501.9917554105119,242.2514599793885 582,237 C 662.0082445894881,231.7485400206115 771.5692201992441,190.13878392305048 851,189 C 930.4307798007559,187.86121607694952 979.7313637925113,227.19340432840949 1030,221 C 1080.2686362074887,214.80659567159051 1131.505324630711,163.08759876331158 1200,152 C 1268.494675369289,140.91240123668842 1354.2473376846447,170.4562006183442 1440,200 C 1440,200 1440,400 1440,400 Z"
+              );
+            }
+          }
+        </style>
+        <path
+          d="M 0,400 C 0,400 0,200 0,200 C 53.07660597732739,164.16351769151493 106.15321195465478,128.32703538302988 173,125 C 239.84678804534522,121.67296461697012 320.46375815870834,150.8553761593954 386,181 C 451.53624184129166,211.1446238406046 501.9917554105119,242.2514599793885 582,237 C 662.0082445894881,231.7485400206115 771.5692201992441,190.13878392305048 851,189 C 930.4307798007559,187.86121607694952 979.7313637925113,227.19340432840949 1030,221 C 1080.2686362074887,214.80659567159051 1131.505324630711,163.08759876331158 1200,152 C 1268.494675369289,140.91240123668842 1354.2473376846447,170.4562006183442 1440,200 C 1440,200 1440,400 1440,400 Z"
+          stroke="none"
+          stroke-width="0"
+          fill="#0d6efdff"
+          class="transition-all duration-300 ease-in-out delay-150 path-0"
+        ></path>
+      </svg>
+    </section>
+
+    <!-- Akhir Contact -->
+
+    <!-- Footer -->
+
+    <footer class="bg-primary text-white text-center pb-5">
+        <p class="follow">Follow Me</p>
+        <ul class="social_icon">
+            <li>
+                <a href="https://www.facebook.com/UbaedShibghahtallaAshriMuharam/?view_public_for=108889317685055" target="_blank">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/ubaed_shibghahtallah/?hl=en" target="_blank">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/ubaedsam" target="_blank">
+                    <ion-icon name="logo-github"></ion-icon>
+                </a>
+            </li>
+        </ul>
+        <p>Created with <i class="bi bi-suit-heart-fill text-danger"></i> by <a href="#" class="text-white fw-bold">Ubaed Shibghahtallah A.M</a></p>
+    </footer>
+
+    <!-- Akhir Footer -->
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Membuat efek Animasi dengan AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        const galleryImage = document.querySelectorAll(".gallery-img"); // mengambil semua data dari class yang namanya gallery-img
+
+        galleryImage.forEach((img, i) => {
+            img.dataset.aos = "fade-down";
+            img.dataset.aosDelay = i * 100;
+            img.dataset.aosDuration = 1000;
+        });
+
+        AOS.init({
+            // jika ingin merubah konfigurasi munculnya efek bisa di tambahkan disini
+            // once: true, // membuat animasi berjalan hanya satu kali
+            duration: 2000, // membuat animasi berjalan selama 2 detik
+        });
+    </script>
+
+    <!-- Membuat efek animasi dengan GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/TextPlugin.min.js"></script>
+    <script>
+        gsap.registerPlugin(TextPlugin); // jika ingin menambah data plugin bisa menulis ,
+        gsap.to(".lead", {
+            duration: 2,
+            delay: 2,
+            text: "Web Developer | Web Designer"
+        }); // membuat efek animasi pada text profile
+        gsap.from(".jumbotron img", {
+            duration: 1,
+            rotateY: 360,
+            opacity: 0
+        }); // membuat efek animasi pada gambar profile
+        gsap.from(".navbar", {
+            duration: 1.5,
+            y: "-100%",
+            opacity: 0,
+            ease: "bounce"
+        }); // membuat efek animasi pada navbar
+        // gsap.from(".display-4", { duration: 1, x: -50, opacity: 0, delay: 0.5, ease: "back" }); // membuat efek animasi pada nama profile
+    </script>
+
+    <!-- Menyimpan data pesan contact form ke dalam google spreedsheet -->
+    <script>
+        const scriptURL = "https://script.google.com/macros/s/AKfycbythI3sHqKtM_iGhlKGNmtIegNHh4HAQQpelVxOr-2WSWvFnqH3sHjIFr34Xc8hHaTvWQ/exec"; // Masukan link url data trigger web app dari manage deployments
+        const form = document.forms["ubaed-sam-contact-form"]; // memilih data form dengan nama ubaed-sam-contact-form pada dokumen project website
+        const btnKirim = document.querySelector(".btn-kirim"); // memilih data button dengan nama class btn-kirim pada dokumen project website
+        const btnLoading = document.querySelector(".btn-loading"); // memilih data button dengan nama class btn-loading pada dokumen project website
+        const myAlert = document.querySelector(".my-alert"); // memilih data button dengan nama class my-alert pada dokumen project website
+
+        form.addEventListener("submit", (e) => {
+            e.preventDefault();
+            // Ketika tombol submit di klik
+            // Tampilkan tombol loading, hilangkan tombol kirim
+            btnLoading.classList.toggle("d-none");
+            btnKirim.classList.toggle("d-none");
+            fetch(scriptURL, {
+                    method: "POST",
+                    body: new FormData(form)
+                })
+                .then((response) => {
+                    // Tampilkan tombol kirim, hilangkan tombol loading
+                    btnLoading.classList.toggle("d-none");
+                    btnKirim.classList.toggle("d-none");
+                    // tampilkan alert
+                    myAlert.classList.toggle("d-none");
+                    // Menghilangkan isi formnya
+                    form.reset();
+                    console.log("Success!", response);
+                })
+                .catch((error) => console.error("Error!", error.message));
+        });
+    </script>
+</body>
+
+</html>
